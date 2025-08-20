@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detona Ralph Game</title>
+    <link rel="stylesheet" href="./sytle.css">
+</head>
+<body>
+    <header>
+        <h1>Detona Ralph Game</h1>
+    </header>
+    
+    <div class="game-info">
+        <p>Clique no Ralph para ganhar pontos! Cuidado com Felix e Vanellope!</p>
+    </div>
+    
+    <div class="score-board">
+        <div class="score">Pontuação: <span id="score">0</span></div>
+        <div class="timer">Tempo: <span id="time">30</span>s</div>
+    </div>
+    
+    <div class="game-board" id="game-board">
+        <!-- Os buracos serão gerados via JavaScript -->
+    </div>
+    
+    <div class="controls">
+        <button id="start-btn">Iniciar Jogo</button>
+        <button id="reset-btn">Reiniciar</button>
+    </div>
+    
+    <div class="message" id="message">Clique em Iniciar para começar!</div>
+    
+    <div class="image-info">
+        <p>Para o jogo funcionar corretamente, certifique-se de ter os arquivos das imagens na pasta 'imagens'</p>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
